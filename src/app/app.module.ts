@@ -22,22 +22,11 @@ import { Scenario3Module } from './scenario3/scenario3.module';
 import { Scenario4Module } from './scenario4/scenario4.module';
 import { Scenario5Module } from './scenario5/scenario5.module';
 import { Scenario6Module } from './scenario6/scenario6.module';
+import { Scenario7Module } from './scenario7/scenario7/scenario7.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // Parent1Component,
-    // Child1Component,
-    // Scenario1Component,
-    // Scenario2Component,
-    // Parent2Component,
-    // Child2Component,
-    // Parent3Component,
-    // Child3aComponent,
-    // Child3bComponent,
-    // Parent6Component,
-    // Child6aComponent,
-    // Child6bComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +36,8 @@ import { Scenario6Module } from './scenario6/scenario6.module';
     Scenario3Module,
     Scenario4Module,
     Scenario5Module,
-    Scenario6Module
+    Scenario6Module,
+    Scenario7Module
   ],
   providers: [],
   bootstrap: [AppComponent]
