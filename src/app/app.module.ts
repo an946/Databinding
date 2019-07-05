@@ -22,7 +22,7 @@ import { Scenario3Module } from './scenario3/scenario3.module';
 import { Scenario4Module } from './scenario4/scenario4.module';
 import { Scenario5Module } from './scenario5/scenario5.module';
 import { Scenario6Module } from './scenario6/scenario6.module';
-import { Scenario7Module } from './scenario7/scenario7/scenario7.module';
+import { Scenario7Module } from './scenario7/scenario7.module';
 
 @NgModule({
   declarations: [
